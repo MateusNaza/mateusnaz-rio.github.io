@@ -43,7 +43,7 @@
     flex: 1 1 80%;
     min-height: 100vh;
     background-color: var(--about-bg-color);
-    padding: 50px;
+    padding: 8vh;
 }
 
 /*-----------------------------------BioContainer----------------------------------*/
@@ -113,7 +113,7 @@
 
 .description {
     max-width: 75%;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 #btnProjects {
@@ -125,7 +125,6 @@
     color: var(--main-text-colorcolor);
     background-color: var(--main-color);
     padding: 5px;
-    margin-bottom: 10px;
     align-items: center;
     width: 150px;
     cursor: pointer;
@@ -133,10 +132,6 @@
     transition: 0.3s;
     gap: 5px;
     border: 1px solid var(--main-color);
-}
-
-#mainTechText {
-    margin-top: 10px;
 }
 
 #btnProjects ion-icon {
@@ -148,4 +143,34 @@
 }
 
 /*----------------------------------Skills--------------------------------*/
+#skillsSectionTitle {
+    border-top: 2px solid var(--border-color);
+    margin-top: 2vh ;
+    padding-top: 2vh;
+    font-size: 30px;
+    font-weight: bold;
+}
 
+#skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+}
+
+.skillsBox {
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin-bottom: 3vh;
+}
+
+.skillsTitle {
+    font-size: 24px;
+    margin-bottom: 2vh;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid var(--main-color);
+}
+
+.skillsBox i {
+    font-size: 40px;
+}
